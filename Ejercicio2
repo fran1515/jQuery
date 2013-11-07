@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Francisco Jose del Moral Garcia</title>
+        <!-- Libreria jQuery-->
+        <script type="text/javascript" src="jquery-1.3.1.min.js"></script>
+        <!-- Archivo JavaScript donde introducimos las funciones de las que nos valemos en el html-->
+        <script type="text/javascript" src="Ejercicio2js.js"></script>
+    </head>
+    <body>
+        <h1>Realizacion de un programa en jQuery (Francisco Jose del Moral Garcia)</h1>
+        
+        <h2>Ingenieria Informatica</h2>
+        <!-- Boton con el que mostraremos/ocultaremos la informacion-->
+        <input type="button" id="botonInformatica" value="Mostrar/Ocultar Texto">
+        <div id="idInformatica" >
+            <p>La ingeniería informática es la rama de la ingeniería que aplica los fundamentos de la ciencia de la computación, la Ingeniería electrónica y la ingeniería de software, para el desarrollo de soluciones integrales de cómputo y comunicaciones, capaces de procesar información de manera automática..</p> 
+            <p>El plan de estudios del Grado en Ingeniería Informática por la UGR consta de una oferta total de 618 créditos, de los cuales el estudiante deberá cursar 240 créditos que, en cuanto a su carácter, se distribuyen de la siguiente forma: 60 créditos de materias básicas, 138 créditos de materias obligatorias, 30 créditos de materias optativas y 12 créditos del Trabajo de Fin de Grado (TFG).</b>
+            <p>Todo el Título se organiza en un esquema de Módulos/Materias, adscribiéndose a cada una de ellas el logro de una serie de competencias, conocimientos y objetivos formativos. La elevada obligatoriedad pretende dotar al alumnado de un tronco unitario en competencias y conocimientos considerados básicos para un Ingeniero Informático independientemente de la especialidad que decida cursar.</p>
+            <ul>
+                <!-- Lista de todas las especialidades de la Ing. Informatica -->
+                <li><a id="EspCSI" href="#">Especialidad Computación y Sistemas Inteligentes</a></li>
+                <li><a id="EspIS" href="#">Especialidad Ingeniería del Software</a></li>
+                <li><a id="EspIC" href="#">Especialidad Ingeniería de Computadores</a></li>
+                <li><a id="EspSI" href="#">Especialidad Sistemas de Información</a></li>
+                <li><a id="EspTI" href="#">Especialidad Tecnologías de la Información</a></li>
+            </ul>
+            <!-- Boton que nos servira para eliminar las especialidades -->
+            <input type="button" id="botonEliminarEspInformatica" value="Eliminar especialidad."><br>
+        </div>
+        
+        
+        <h2>Ingenieria de Telecomunicaciones</h2>
+        <!-- Boton con el que mostraremos/ocultaremos la informacion-->
+        <input type="button" id="botonTeleco" value="Mostrar/Ocultar Texto">
+        <div id="idTeleco" >
+            <p>La Ingeniería de Telecomunicaciones (o de Telecomunicación) es una rama de la ingeniería, que resuelve problemas de transmisión y recepción de señales e interconexión de redes. Es la disciplina de aplicación de la telecomunicación, término que se refiere a la comunicación a distancia, generalmente a través de la propagación de ondas electromagnéticas. Esto incluye muchas tecnologías, como radio, televisión, teléfono, comunicaciones de datos y redes informáticas como Internet. La definición dada por la Unión Internacional de Telecomunicaciones (ITU, International Telecommunication Union) para telecomunicación es toda emisión, transmisión y recepción de signos, señales, escritos e imágenes, sonidos e informaciones de cualquier naturaleza, por hilo, radioelectricidad, medios ópticos u otros sistemas electromagnéticos.</p> 
+            <p>El plan del Grado en Ingeniería de Tecnologías de Telecomunicación por la Universidad de Granada constituye una oferta integrada de la formación necesaria para acceder a la profesión regulada de Ingeniero Técnico de Telecomunicación, que toma en consideración la dedicación del estudiante y le permite, tras un conocimiento adecuado de la profesión de Ingeniero Técnico de Telecomunicación, optar entre tres de las cuatro especializaciones definidas en la Orden CIN/352/2009.</b>
+            <p>Para ello se han definido tres itinerarios de 48 créditos, correspondientes a las tecnologías específicas de las especialidades de Sistemas de Telecomunicación, Telemática y Sistemas Electrónicos.</p>
+        </div>
+ 
+    </body>
+</html>
